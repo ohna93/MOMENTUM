@@ -1,6 +1,6 @@
 # [momentum]
 
-## ▶[momentum page 바로가기](https://ohna93.github.io/MOMENTUM){: target ="_blank"}
+## ▶momentum page 바로가기  <a target="_blank">https://ohna93.github.io/MOMENTUM</a>
 
-![스크린샷](screenshot.png)
-![스크린샷](screenshot2.png)
+![바닐라JS로 크롬앱 만들기](screenshot.png)
+![바닐라JS로 크롬앱 만들기](screenshot2.png)
