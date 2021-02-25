@@ -1,18 +1,23 @@
-  
-# [▶momentum page 바로가기](https://ohna93.github.io/MOMENTUM)
+# [▶ momentum page 바로가기](https://ohna93.github.io/MOMENTUM)
 
-1️⃣ 시계&emsp;[▼ clock.js 파일](clock.js)
+1️⃣  시계
+
+&emsp;[▼ clock.js 파일](clock.js)
 > -  시간 가져오는 함수를 따로 만들어주고, 그함수를 init()함수에서 부르기.  
 > -  `setInterval(함수이름,1000)`로 1초마다 시간이 바뀌도록 해줌.  
 > -  시간이 표시되는 곳에서 숫자를 두자리수로 맞춰주기 위해 조건문을 사용하여 10미만의 숫자이면 앞자리에 0을 붙여주도록 삼항연산자를 사용함  
  
-2️⃣ 이름을 입력받아 나타내기&emsp;[▼ greeting.js 파일](greeting.js)
+2️⃣  이름을 입력받아 나타내기
+
+&emsp;[▼ greeting.js 파일](greeting.js)
 > - init()함수에서 loadName(); 을 부른다.  
 > - loadName()에서 이름이 있을 때와 없을 때를 판단하여 코드를 짬.  
 > - 결론적으로는 paintGreeting() 함수에 도달 하도록 완성.  
 > - 이름이 있는것은 컴퓨터에 저장되었다는 뜻 : 그러기위해 이름을 input(submit)하는 함수에서 localStorage를 사용.  
 
-3️⃣ TO DO LIST&emsp;[▼ todo.js 파일](todo.js)
+3️⃣  TO DO LIST
+
+&emsp;[▼ todo.js 파일](todo.js)
 > - 마찬가지로 toDos에 내용이 있으면 localStorage에서 가져와서 보여주고 , 없으면 form에 작성하고 submit.  
 > - TO DO LIST 에서는 submit하면 createElement를 이용하여 li를 만들어주고, li가 ul의 자식노드로 추가됨.  
 > - li안에는 삭제버튼 & submit한 내용 → 이제 이걸 localStorage에 저장하고 → 삭제버튼을 누르면 누른버튼의 li 전체가 보여지지 않도록 또, > localStorage에서도 삭제되도록 짜보자  : li가 여러개니까 li를 array로 만들어 줘야 함 → 빈 배열을 하나 만들어두고 element를 생성해서 > 배열에 push해줌  
@@ -24,13 +29,17 @@
 > - 해야할 두가지는 localStorage에서도 삭제되고 HTML상에서도 삭제  
 > - array.filter(function())함수는 array의 모든 아이템을 통해 함수를 실행하고 true인 아이템들만 가지고 새로운 array를 만듬    
 
-4️⃣ 랜덤 배경 이미지&emsp;[▼ bg.js 파일](bg.js)
+4️⃣  랜덤 배경 이미지
+
+&emsp;[▼ bg.js 파일](bg.js)
 > - 다운받은사진들은 MOMENTUM0105파일에 images파일을 만들어서 그 안에 넣어둠  
 > - 자바스크립트에서 랜덤번호 생성하는 방법  
 > - Math,random() : 1~6사이의 숫자를 랜덤으로 원한다고 하면, `Math.random()*6`  
 > - 소수점을 떼어내고 정수만 원한다고 하면, `Math.floor()`    
 
-5️⃣ 위치와 날씨&emsp;[▼ weather.js 파일](weather.js)
+5️⃣  위치와 날씨
+
+&emsp;[▼ weather.js 파일](weather.js)
 > - HTML에선 날씨정보가 들어갈 틀 만들어줌.  
 > - 유저의 Location좌표정보를 읽어서 그 정보를 저장하고,  만약 이미 저장한값이 없다면 요청하고 저장값이 있다면 아무것도 안함.  
 > - 위도와 경도 읽어오기  
@@ -43,6 +52,7 @@
 > - 데이터를 얻는 방법은 fetch( 가져올 데이터 ) : 가져올 format같은건 여기 URL에 &로 이어서 붙임.  
 > - network패널은 우리가 request한 내용을 보여주는거  
 
+<br>
 
 ![바닐라JS로 크롬앱 만들기](screenshot.png)
-![바닐라JS로 크롬앱 만들기](screenshot2.png)
+![바닐라JS로 크롬앱 만들기](screenshot2.png) 
