@@ -1,4 +1,5 @@
-# <a style="color:green" target="_blank" href="https://ohna93.github.io/MOMENTUM">▶momentum page 바로가기</a>
+  
+# [▶momentum page 바로가기](https://ohna93.github.io/MOMENTUM)
 
 1️⃣ 시계&emsp;[▼ clock.js 파일](clock.js)
 > -  시간 가져오는 함수를 따로 만들어주고, 그함수를 init()함수에서 부르기.  
